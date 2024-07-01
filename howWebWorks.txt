@@ -1,0 +1,37 @@
+1. What is HTTP?
+    HTTP (hyper text transfer protocol) is how machines get data from and send data to servers.
+
+2. What is a URL?
+    A URL is a an identifier for a specific resource from the internet.
+
+3. What is DNS?
+    DNS is the way a normal readable URL gets translated into an IP address for computers
+
+4. What is a query string?
+    A query string is a set of characters at the end of an URL that has parameters and values. You can pass key value pairs into a URL.
+
+5. What are two HTTP verbs and how are they different?
+    Two HTTP verbs are GET and POST.
+        GET: gets data from server(doesn't change data)
+        POST: seds data to server(changes data)
+
+6. What is an HTTP request?
+    An HTTP request is when a client makes a request to a server that aligns with HTTP.
+
+7. What is an HTTP response?
+    An HTTP response ifs what a server sends backl to the client in repsonse to a request.
+
+8. What is an HTTP header? Give a couple examples of request and response headers you have seen.
+    An HTTP header is more information on the request or the response.
+        Request Ex: 
+            - Cookie, Host
+        Response Ex:
+            - Set-Cookie, Last-Modified
+
+9.  What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+    1. Uses DNS to turn URL into IP address
+    2. Makes a request to the IP address
+    3. Server responds to the request
+    4. Browser creates DOM with HTML
+    5. Sends seperate requests for resources
+    6. Server sends responses for each request 
